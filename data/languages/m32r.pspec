@@ -2,123 +2,123 @@
 
 <processor_spec>
 	<programcounter register="PC"/>
-	
+
 	<default_symbols>
-	    <symbol name="RI" address="0x0" type="code" entry="true"/>
-	    <symbol name="RI_2" address="0x4" type="code" entry="true"/>
-	    <symbol name="RI_3" address="0x8" type="code" entry="true"/>
-	    <symbol name="RI_4" address="0xC" type="code" entry="true"/>
-	    <symbol name="SBI" address="0x10" type="code" entry="true"/>
-	    <symbol name="SBI_2" address="0x14" type="code" entry="true"/>
-	    <symbol name="SBI_3" address="0x18" type="code" entry="true"/>
-	    <symbol name="SBI_4" address="0x1C" type="code" entry="true"/>
-	    <symbol name="RIE" address="0x20" type="code" entry="true"/>
-	    <symbol name="RIE_4" address="0x24" type="code" entry="true"/>
-	    <symbol name="RIE_4" address="0x28" type="code" entry="true"/>
-	    <symbol name="RIE_4" address="0x2C" type="code" entry="true"/>
-	    <symbol name="AE" address="0x30" type="code" entry="true"/>
-	    <symbol name="AE_2" address="0x34" type="code" entry="true"/>
-	    <symbol name="AE_3" address="0x38" type="code" entry="true"/>
-	    <symbol name="AE_4" address="0x3C" type="code" entry="true"/>
-	    <symbol name="TRAP0" address="0x40" type="code" entry="true"/>
-	    <symbol name="TRAP1" address="0x44" type="code" entry="true"/>
-	    <symbol name="TRAP2" address="0x48" type="code" entry="true"/>
-	    <symbol name="TRAP3" address="0x4C" type="code" entry="true"/>
-	    <symbol name="TRAP4" address="0x50" type="code" entry="true"/>
-	    <symbol name="TRAP5" address="0x54" type="code" entry="true"/>
-	    <symbol name="TRAP6" address="0x58" type="code" entry="true"/>
-	    <symbol name="TRAP7" address="0x5C" type="code" entry="true"/>
-	    <symbol name="TRAP8" address="0x60" type="code" entry="true"/>
-	    <symbol name="TRAP9" address="0x64" type="code" entry="true"/>
-	    <symbol name="TRAP10" address="0x68" type="code" entry="true"/>
-	    <symbol name="TRAP11" address="0x6C" type="code" entry="true"/>
-	    <symbol name="TRAP12" address="0x70" type="code" entry="true"/>
-	    <symbol name="TRAP13" address="0x74" type="code" entry="true"/>
-	    <symbol name="TRAP14" address="0x78" type="code" entry="true"/>
-	    <symbol name="TRAP15" address="0x7C" type="code" entry="true"/>
-	    <symbol name="EI" address="0x80" type="code" entry="true"/>
-	    <symbol name="FPE" address="0x90" type="code" entry="true"/>
-	    
-	    <symbol name="TIN3-6" address="0x94" type="code_ptr" entry="true"/>
-	    <symbol name="TIN20-29" address="0x98" type="code_ptr" entry="true"/>
-	    <symbol name="TIN12-19" address="0x9C" type="code_ptr" entry="true"/>
-	    <symbol name="TIN0-2" address="0xA0" type="code_ptr" entry="true"/>
-	    <symbol name="TIN7-11" address="0xA4" type="code_ptr" entry="true"/>
-	    <symbol name="TMS0-1" address="0xA8" type="code_ptr" entry="true"/>
-	    <symbol name="TOP8-9" address="0xAC" type="code_ptr" entry="true"/>
-	    <symbol name="TOP10" address="0xB0" type="code_ptr" entry="true"/>
-	    <symbol name="TIO4-7" address="0xB4" type="code_ptr" entry="true"/>
-	    <symbol name="TIO8-9" address="0xB8" type="code_ptr" entry="true"/>
-	    <symbol name="TOP0-5" address="0xBC" type="code_ptr" entry="true"/>
-	    
-	    
-	    <symbol name="TOP6-7" address="0xC0" type="code_ptr" entry="true"/>
-	    <symbol name="TIO0-3" address="0xC4" type="code_ptr" entry="true"/>
-	    <symbol name="DMA0-4" address="0xC8" type="code_ptr" entry="true"/>
-	    <symbol name="SIO1R" address="0xCC" type="code_ptr" entry="true"/>
-	    <symbol name="SIO1T" address="0xD0" type="code_ptr" entry="true"/>
-	    <symbol name="SIO1R" address="0xD4" type="code_ptr" entry="true"/>
-	    <symbol name="SIO0T" address="0xD8" type="code_ptr" entry="true"/>
-	    <symbol name="AD0" address="0xDC" type="code_ptr" entry="true"/>
-	    <symbol name="TID0" address="0xE0" type="code_ptr" entry="true"/>
-	    <symbol name="TOU0" address="0xE4" type="code_ptr" entry="true"/>
-	    <symbol name="DMA5-9" address="0xE8" type="code_ptr" entry="true"/>
-	    <symbol name="SIO2-3" address="0xEC" type="code_ptr" entry="true"/>
-	    <symbol name="RTD" address="0xF0" type="code_ptr" entry="true"/>
-	    <symbol name="TID1" address="0xF4" type="code_ptr" entry="true"/>
-	    <symbol name="TOU1-2" address="0xF8" type="code_ptr" entry="true"/>
-	    <symbol name="SIO4-5" address="0xFC" type="code_ptr" entry="true"/>
-	    <symbol name="AD1" address="0x100" type="code_ptr" entry="true"/>
-	    <symbol name="TID2" address="0x104" type="code_ptr" entry="true"/>
-	    <symbol name="TIN30-33" address="0x108" type="code_ptr" entry="true"/>
-	    <symbol name="CAN0" address="0x10C" type="code_ptr" entry="true"/>
-	    <symbol name="CAN1" address="0x110" type="code_ptr" entry="true"/>
-	    
-	    <symbol name="IVECT" address="0x800000"/>
-	    <symbol name="IMASK" address="0x800004"/>
-	    <symbol name="SBICR" address="0x800006"/>
-	    <symbol name="ICAN0CR" address="0x800060"/>
-	    <symbol name="ITIN3033CR" address="0x800061"/>
-	    <symbol name="ITID2CR" address="0x800062"/>
-	    <symbol name="IAD1CCR" address="0x800063"/>
-	    <symbol name="ISIO45CR" address="0x800064"/>
-	    <symbol name="ITOU12CR" address="0x800065"/>
-	    <symbol name="ITID1CR" address="0x800066"/>
-	    <symbol name="IRTDCR" address="0x800067"/>
-	    <symbol name="ISIO23CR" address="0x800068"/>
-	    <symbol name="IDMA59CR" address="0x800069"/>
-	    <symbol name="ITOU0CR" address="0x80006A"/>
-	    <symbol name="ITID0CR" address="0x80006B"/>
-	    <symbol name="IAD0CCR" address="0x80006C"/>
-	    <symbol name="ISIO0TXCR" address="0x80006D"/>
-	    <symbol name="ISIO0RXCR" address="0x80006E"/>
-	    <symbol name="ISIO1TXCR" address="0x80006F"/>
-	    <symbol name="ISIO1RXCR" address="0x800070"/>
-	    <symbol name="IDMA04CR" address="0x800071"/>
-	    <symbol name="ITIO03CR" address="0x800072"/>
-	    <symbol name="ITOP67CR" address="0x800073"/>
-	    <symbol name="ITOP05CR" address="0x800074"/>
-	    <symbol name="ITIO89CR" address="0x800075"/>
-	    <symbol name="ITIO47CR" address="0x800076"/>
-	    <symbol name="ITOP10CR" address="0x800077"/>
-	    <symbol name="ITOP89CR" address="0x800078"/>
-	    <symbol name="ITMS01CR" address="0x800079"/>
-	    <symbol name="ITIN711CR" address="0x80007A"/>
-	    <symbol name="ITIN02CR" address="0x80007B"/>
-	    <symbol name="ITIN1219CR" address="0x80007C"/>
-	    <symbol name="ITIN2029CR" address="0x80007D"/>
-	    <symbol name="ITIN36CR" address="0x80007E"/>
-	    <symbol name="ICAN1CR" address="0x80007F"/>
-	    <symbol name="AD0SIM0" address="0x800080"/>
-	    <symbol name="AD0SIM1" address="0x800081"/>
-	    <symbol name="AD0SCM0" address="0x800084"/>
-	    <symbol name="AD0SCM1" address="0x800085"/>
-	    <symbol name="AD0DDACR" address="0x800086"/>
-	    <symbol name="AD0CVSCR" address="0x800087"/>
-	    <symbol name="AD0SAR" address="0x800088"/>
-	    <symbol name="AD0DDASEL" address="0x80008A"/>
-	    <symbol name="AD0CMP" address="0x80008C"/>
-	    <symbol name="AD0DT0" address="0x800090"/>
+		<symbol name="RI" address="0x0" type="code" entry="true"/>
+		<symbol name="RI_2" address="0x4" type="code" entry="true"/>
+		<symbol name="RI_3" address="0x8" type="code" entry="true"/>
+		<symbol name="RI_4" address="0xC" type="code" entry="true"/>
+		<symbol name="SBI" address="0x10" type="code" entry="true"/>
+		<symbol name="SBI_2" address="0x14" type="code" entry="true"/>
+		<symbol name="SBI_3" address="0x18" type="code" entry="true"/>
+		<symbol name="SBI_4" address="0x1C" type="code" entry="true"/>
+		<symbol name="RIE" address="0x20" type="code" entry="true"/>
+		<symbol name="RIE_4" address="0x24" type="code" entry="true"/>
+		<symbol name="RIE_4" address="0x28" type="code" entry="true"/>
+		<symbol name="RIE_4" address="0x2C" type="code" entry="true"/>
+		<symbol name="AE" address="0x30" type="code" entry="true"/>
+		<symbol name="AE_2" address="0x34" type="code" entry="true"/>
+		<symbol name="AE_3" address="0x38" type="code" entry="true"/>
+		<symbol name="AE_4" address="0x3C" type="code" entry="true"/>
+		<symbol name="TRAP0" address="0x40" type="code" entry="true"/>
+		<symbol name="TRAP1" address="0x44" type="code" entry="true"/>
+		<symbol name="TRAP2" address="0x48" type="code" entry="true"/>
+		<symbol name="TRAP3" address="0x4C" type="code" entry="true"/>
+		<symbol name="TRAP4" address="0x50" type="code" entry="true"/>
+		<symbol name="TRAP5" address="0x54" type="code" entry="true"/>
+		<symbol name="TRAP6" address="0x58" type="code" entry="true"/>
+		<symbol name="TRAP7" address="0x5C" type="code" entry="true"/>
+		<symbol name="TRAP8" address="0x60" type="code" entry="true"/>
+		<symbol name="TRAP9" address="0x64" type="code" entry="true"/>
+		<symbol name="TRAP10" address="0x68" type="code" entry="true"/>
+		<symbol name="TRAP11" address="0x6C" type="code" entry="true"/>
+		<symbol name="TRAP12" address="0x70" type="code" entry="true"/>
+		<symbol name="TRAP13" address="0x74" type="code" entry="true"/>
+		<symbol name="TRAP14" address="0x78" type="code" entry="true"/>
+		<symbol name="TRAP15" address="0x7C" type="code" entry="true"/>
+		<symbol name="EI" address="0x80" type="code" entry="true"/>
+		<symbol name="FPE" address="0x90" type="code" entry="true"/>
+
+		<symbol name="TIN3-6" address="0x94" type="code_ptr" entry="true"/>
+		<symbol name="TIN20-29" address="0x98" type="code_ptr" entry="true"/>
+		<symbol name="TIN12-19" address="0x9C" type="code_ptr" entry="true"/>
+		<symbol name="TIN0-2" address="0xA0" type="code_ptr" entry="true"/>
+		<symbol name="TIN7-11" address="0xA4" type="code_ptr" entry="true"/>
+		<symbol name="TMS0-1" address="0xA8" type="code_ptr" entry="true"/>
+		<symbol name="TOP8-9" address="0xAC" type="code_ptr" entry="true"/>
+		<symbol name="TOP10" address="0xB0" type="code_ptr" entry="true"/>
+		<symbol name="TIO4-7" address="0xB4" type="code_ptr" entry="true"/>
+		<symbol name="TIO8-9" address="0xB8" type="code_ptr" entry="true"/>
+		<symbol name="TOP0-5" address="0xBC" type="code_ptr" entry="true"/>
+
+
+		<symbol name="TOP6-7" address="0xC0" type="code_ptr" entry="true"/>
+		<symbol name="TIO0-3" address="0xC4" type="code_ptr" entry="true"/>
+		<symbol name="DMA0-4" address="0xC8" type="code_ptr" entry="true"/>
+		<symbol name="SIO1R" address="0xCC" type="code_ptr" entry="true"/>
+		<symbol name="SIO1T" address="0xD0" type="code_ptr" entry="true"/>
+		<symbol name="SIO1R" address="0xD4" type="code_ptr" entry="true"/>
+		<symbol name="SIO0T" address="0xD8" type="code_ptr" entry="true"/>
+		<symbol name="AD0" address="0xDC" type="code_ptr" entry="true"/>
+		<symbol name="TID0" address="0xE0" type="code_ptr" entry="true"/>
+		<symbol name="TOU0" address="0xE4" type="code_ptr" entry="true"/>
+		<symbol name="DMA5-9" address="0xE8" type="code_ptr" entry="true"/>
+		<symbol name="SIO2-3" address="0xEC" type="code_ptr" entry="true"/>
+		<symbol name="RTD" address="0xF0" type="code_ptr" entry="true"/>
+		<symbol name="TID1" address="0xF4" type="code_ptr" entry="true"/>
+		<symbol name="TOU1-2" address="0xF8" type="code_ptr" entry="true"/>
+		<symbol name="SIO4-5" address="0xFC" type="code_ptr" entry="true"/>
+		<symbol name="AD1" address="0x100" type="code_ptr" entry="true"/>
+		<symbol name="TID2" address="0x104" type="code_ptr" entry="true"/>
+		<symbol name="TIN30-33" address="0x108" type="code_ptr" entry="true"/>
+		<symbol name="CAN0" address="0x10C" type="code_ptr" entry="true"/>
+		<symbol name="CAN1" address="0x110" type="code_ptr" entry="true"/>
+
+		<symbol name="IVECT" address="0x800000"/>
+		<symbol name="IMASK" address="0x800004"/>
+		<symbol name="SBICR" address="0x800006"/>
+		<symbol name="ICAN0CR" address="0x800060"/>
+		<symbol name="ITIN3033CR" address="0x800061"/>
+		<symbol name="ITID2CR" address="0x800062"/>
+		<symbol name="IAD1CCR" address="0x800063"/>
+		<symbol name="ISIO45CR" address="0x800064"/>
+		<symbol name="ITOU12CR" address="0x800065"/>
+		<symbol name="ITID1CR" address="0x800066"/>
+		<symbol name="IRTDCR" address="0x800067"/>
+		<symbol name="ISIO23CR" address="0x800068"/>
+		<symbol name="IDMA59CR" address="0x800069"/>
+		<symbol name="ITOU0CR" address="0x80006A"/>
+		<symbol name="ITID0CR" address="0x80006B"/>
+		<symbol name="IAD0CCR" address="0x80006C"/>
+		<symbol name="ISIO0TXCR" address="0x80006D"/>
+		<symbol name="ISIO0RXCR" address="0x80006E"/>
+		<symbol name="ISIO1TXCR" address="0x80006F"/>
+		<symbol name="ISIO1RXCR" address="0x800070"/>
+		<symbol name="IDMA04CR" address="0x800071"/>
+		<symbol name="ITIO03CR" address="0x800072"/>
+		<symbol name="ITOP67CR" address="0x800073"/>
+		<symbol name="ITOP05CR" address="0x800074"/>
+		<symbol name="ITIO89CR" address="0x800075"/>
+		<symbol name="ITIO47CR" address="0x800076"/>
+		<symbol name="ITOP10CR" address="0x800077"/>
+		<symbol name="ITOP89CR" address="0x800078"/>
+		<symbol name="ITMS01CR" address="0x800079"/>
+		<symbol name="ITIN711CR" address="0x80007A"/>
+		<symbol name="ITIN02CR" address="0x80007B"/>
+		<symbol name="ITIN1219CR" address="0x80007C"/>
+		<symbol name="ITIN2029CR" address="0x80007D"/>
+		<symbol name="ITIN36CR" address="0x80007E"/>
+		<symbol name="ICAN1CR" address="0x80007F"/>
+		<symbol name="AD0SIM0" address="0x800080"/>
+		<symbol name="AD0SIM1" address="0x800081"/>
+		<symbol name="AD0SCM0" address="0x800084"/>
+		<symbol name="AD0SCM1" address="0x800085"/>
+		<symbol name="AD0DDACR" address="0x800086"/>
+		<symbol name="AD0CVSCR" address="0x800087"/>
+		<symbol name="AD0SAR" address="0x800088"/>
+		<symbol name="AD0DDASEL" address="0x80008A"/>
+		<symbol name="AD0CMP" address="0x80008C"/>
+		<symbol name="AD0DT0" address="0x800090"/>
 		<symbol name="AD0DT1" address="0x800092"/>
 		<symbol name="AD0DT2" address="0x800094"/>
 		<symbol name="AD0DT3" address="0x800096"/>
